@@ -1,5 +1,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 *{
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    /* font-family: "Inter", sans-serif; */
+    /* font-family: "Merriweather", serif; */
 }
+header{
+    background-image: url(../images/Banner-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 600px;
+    font-family: "Merriweather", serif;
+}
+.header-content p{
+    font-size: 32px;
+}
+.header-content h1{
+    font-size: 72px;
+    font-weight: bolder;
+}
+/* header part ends here ***********************************/
+.discount-65{
+    max-width: 1320px;
+    margin: 120px auto;
+}
+.discount{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    flex-direction: column;
+    max-width: 803px;
+    min-height: 806px;
+    margin: 0 auto;
+}
+.discount>h1{ 
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.discount>h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-top: 49px;
+    margin-bottom: 16px;
+}
+.discount>h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 47px;
+}
+/* discount part ends here******************************* */
+.midnight-party{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    /* min-height: 600px; */
+    margin: 0 auto;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right, rgba(7,2,17,1.00), rgba(7,2,17,0.00)), url(../images/Vectorrr.png);
+
+}
+.midnight-party h1{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    color: #fff;
+    margin: 126px 0px 24px 126px;
+}
+.midnight-party p{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin: 0px 0px 0px 126px;
+}
+.n-2024{
+    margin: 68px 138px 63px 0px;
+}
+/* Section party ends here************************************************** */
+.place{
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600px;
+    color: #070211;
+    background: linear-gradient( rgba(255,0,0,0.1), rgba(255,0,0,0.00));
+    border-radius: 16px;
+    margin-bottom: 120px;
+
+}
+.place span{
+    color: #FF0000;
+}
+.span-place{
+    padding-top: 100px;
+}
+.span-date{
+    padding: 5px 0;
+}
+.join{
+    margin: 48px 0 110px 0;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: #FF0000;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+}
+/* **************************************************************************** */
+.new-offer{
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    min-height: 463px;
+}
+.new-offer>div{
+    width: 33%;
+    float: left;
+}
+.new-best-offer{
+    margin-top: 104px;
+    font-size: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+}
+.coming-soon{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    color: #070211;
+}
+.offer-2024{
+    margin-top: 112px;
+    margin-bottom: 15px;
+    font-size: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FF0000;
+}
+.offer-2024-description{
+    margin-top: 0px;
+    font-size: "Inter", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgba(7, 2, 17, 0.60)
+}
+/* .container{
+    max-width: 463px;
+    max-height: 463px; 
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+} */
+
