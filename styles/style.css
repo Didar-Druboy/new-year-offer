@@ -133,7 +133,7 @@ header{
     max-width: 1320px;
     margin: 0 auto;
     margin-bottom: 120px;
-    min-height: 463px;
+    /* min-height: 463px; */
 }
 .new-offer>div{
     width: 33%;
